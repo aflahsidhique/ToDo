@@ -12,7 +12,7 @@ h1{
 .todo-wrapper{
   background-color: #353434;
   padding: 2%;
-  width: fit-content;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3%;
@@ -30,6 +30,7 @@ h1{
   border-bottom: 1px solid rgb(77, 77, 77);
   padding-bottom: 25px;
   margin-bottom: 25px;
+  margin-left: 20px;
   
 }
 
@@ -49,7 +50,7 @@ h1{
 .todo-input-item input {
   border: none;
   padding: 8px;
-  width: 250px;
+  width: 170px;
 }
 
 .todo-input-item input:focus{
@@ -60,7 +61,7 @@ h1{
 
 
 .primary-btn{
-  background-color: rgb(0, 230, 122);
+  background-color: rgb(0, 115, 230);
   color: white;
   border-radius: 0px;
   border: none;
@@ -71,7 +72,7 @@ h1{
 }
 
 .primary-btn:hover{
-  background-color: rgb(4, 192, 104);
+  background-color: rgb(4, 101, 192);
 }
 
 .btn-area{
@@ -90,7 +91,7 @@ h1{
 }
 
 .btn-area .active{
-  background-color: rgb(4, 192, 104);
+  background-color: rgb(4, 101, 192);
 }
 
 
@@ -114,7 +115,7 @@ h1{
 
 .todo-list-item h3{
   font-size: 25px;
-  color: rgb(0, 230, 122);
+  color: rgb(0, 117, 227);
   font-weight: bold;
   margin: 0px;
 }

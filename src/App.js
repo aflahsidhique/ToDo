@@ -102,7 +102,7 @@ function App () {
               type="text"
               value={newTodoTitle}
               onChange={e => setNewTodoTitle (e.target.value)}
-              placeholder="What's the title of your To Do?"
+              placeholder="Title of your To Do?"
             />
           </div>
           <div className="todo-input-item">
@@ -111,7 +111,7 @@ function App () {
               type="text"
               value={newDescription}
               onChange={e => setNewDescription (e.target.value)}
-              placeholder="What's the description of your To Do?"
+              placeholder="Description of your To Do?"
             />
           </div>
           <div className="todo-input-item">
@@ -119,6 +119,7 @@ function App () {
               className="primary-btn"
               type="button"
               onClick={handleAddNewToDo}
+              disabled={!newTodoTitle || !newDescription}
             >
               Add
             </button>
